@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "repository": "git@github.com:matt-tingen/advent-of-code.git",
+  "author": "Matt Tingen <matt.tingen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "ava": "^0.24.0"
+  }
+}
