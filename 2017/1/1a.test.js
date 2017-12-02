@@ -1,10 +1,10 @@
 const test = require('ava');
-const sumDigits = require('./sumDigits');
+const sumDigits = require('./1a');
 
 const testSum = (t, input, expected) => {
   t.is(sumDigits(input), expected);
 };
-testSum.title = (title, input) => `sum of digits in ${input}`;
+testSum.title = (title, input) => `sum of digits (next) in ${input}`;
 
 test(testSum, '1122', 3);
 test(testSum, '1111', 4);
