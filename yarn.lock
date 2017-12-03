@@ -1587,6 +1587,10 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+js-combinatorics@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/js-combinatorics/-/js-combinatorics-0.5.2.tgz#f060749232ea1b770076ff97aed6cfa9ab41b8f4"
+
 js-string-escape@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
