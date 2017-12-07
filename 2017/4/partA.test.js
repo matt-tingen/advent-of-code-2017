@@ -4,7 +4,10 @@ const numValid = require('./partA');
 const testList = (t, input, expected) => {
   t.is(numValid(input.trim()), expected);
 };
-testList.title = (title, list, num) => `List has ${num} valid passphrases`;
+testList.title = (title, list, num) =>
+  list.includes('\n')
+    ? `List has ${num} valid passphrases`
+    : `Passphrase "${list}" is ${num ? '' : 'not '}valid`;
 
 test(testList, 'aa bb cc dd ee', 1);
 test(testList, 'aa bb cc dd aa', 0);
