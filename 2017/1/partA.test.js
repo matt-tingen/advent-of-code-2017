@@ -4,8 +4,7 @@ const sumDigits = require('./partA');
 const testSum = (t, input, expected) => {
   t.is(sumDigits(input), expected);
 };
-testSum.title = (title, input) => `sum of digits (next)
-in ${input}`;
+testSum.title = (title, input) => `sum of digits (next) in ${input}`;
 
 test(testSum, '1122', 3);
 test(testSum, '1111', 4);
