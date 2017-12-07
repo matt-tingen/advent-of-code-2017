@@ -1,5 +1,5 @@
 const test = require('ava');
-const dataDistance = require('./3a');
+const dataDistance = require('./partA');
 
 const testDistance = (t, input, expected) => {
   t.is(dataDistance(input), expected);

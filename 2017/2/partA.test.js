@@ -1,5 +1,5 @@
 const test = require('ava');
-const checksum = require('./2a');
+const checksum = require('./partA');
 
 const testChecksum = (t, rawInput, expected) => {
   const input = rawInput.trim().replace(/ /g, '\t');

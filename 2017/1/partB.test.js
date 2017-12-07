@@ -1,5 +1,5 @@
 const test = require('ava');
-const sumDigits = require('./1b');
+const sumDigits = require('./partB');
 
 const testSum = (t, input, expected) => {
   t.is(sumDigits(input), expected);

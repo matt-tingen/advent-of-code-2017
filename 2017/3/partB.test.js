@@ -1,5 +1,5 @@
 const test = require('ava');
-const firstLarger = require('./3b');
+const firstLarger = require('./partB');
 
 const testDistance = (t, input, expected) => {
   t.is(firstLarger(input), expected);
